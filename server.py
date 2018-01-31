@@ -14,4 +14,7 @@ def index():
 		print user["password"]
 	return render_template("users.html", users=x)
 
+#1 create route to view form
+#2 have form have all necessary user data
+#3 have route to handle data asubmission, insert user into db
 app.run(debug=True)
